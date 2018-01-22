@@ -1,0 +1,52 @@
+.container {
+  display:flex;
+}
+
+.image-container {
+
+}
+
+.active {
+
+}
+
+nav img .mobile{
+  display: none;
+}
+
+.jumbotron-bike {
+  background-image: url(../images/jumbotron-bike.jpg);
+}
+
+h1 {
+  text-shadow: 1px 1px 2px black;
+}
+
+p {
+  text-shadow: 1px 1px 2px black;
+}
+
+img .feature {
+  width: 50%;
+  /*image 100% on mobile*/
+}
+
+.documentary, .projects {
+  width: 25%;
+  /*image 50% on mobile*/
+}
+
+.project {
+  display: flex;
+  width: 30%;
+  /*100% on smaller screen*/
+}
+
+.container.project {
+  flex-direction: row;
+}
+
+.project1, .project2, .projects3 {
+  display: flex;
+  flex-direction: column;
+}
