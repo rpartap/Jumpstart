@@ -3,16 +3,25 @@
 }
 
 .image-container {
-
+  opacity: 90%;
 }
 
 .active {
 
 }
 
-nav img .mobile{
-  display: none;
+nav {
+  flex-direction: row;
 }
+
+.navbar-fixed-top {
+  flex-direction: row;
+
+}
+
+/*nav img .mobile {
+  display: none;
+}*/
 
 .jumbotron-bike {
   background-image: url(../images/jumbotron-bike.jpg);
@@ -20,6 +29,7 @@ nav img .mobile{
 
 h1 {
   text-shadow: 1px 1px 2px black;
+  font-family:'Monoton', sans-serif; 
 }
 
 p {
@@ -46,7 +56,15 @@ img .feature {
   flex-direction: row;
 }
 
-.project1, .project2, .projects3 {
+.project {
   display: flex;
   flex-direction: column;
+  width: 30%;
+  /*mobile width 100%*/
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 8px;
 }
